@@ -1,0 +1,27 @@
+{
+  "name": "Summit Plumbing",
+  "timezone": "America/New_York",
+  "transferNumber": "+15555550100",
+  "greeting": "Thanks for calling Summit Plumbing, this is Ava, the virtual receptionist. Are you looking to book a visit, or do you have a question?",
+  "hours": {
+    "monday": ["08:00", "17:00"],
+    "tuesday": ["08:00", "17:00"],
+    "wednesday": ["08:00", "17:00"],
+    "thursday": ["08:00", "17:00"],
+    "friday": ["08:00", "16:00"],
+    "saturday": ["09:00", "12:00"],
+    "sunday": null
+  },
+  "services": [
+    { "name": "drain cleaning", "aliases": ["clog", "clogged", "drain", "blocked"], "minutes": 60 },
+    { "name": "water heater repair", "aliases": ["water heater", "hot water", "heater"], "minutes": 90 },
+    { "name": "leak repair", "aliases": ["leak", "leaking", "drip", "dripping"], "minutes": 60 },
+    { "name": "free estimate", "aliases": ["estimate", "quote", "remodel", "install"], "minutes": 30 }
+  ],
+  "faqs": [
+    { "keywords": ["hours", "open", "close", "saturday", "weekend"], "answer": "We're open Monday to Thursday 8 to 5, Friday 8 to 4, and Saturday mornings 9 to 12." },
+    { "keywords": ["cost", "price", "charge", "fee", "much"], "answer": "Our service call fee is 89 dollars, and it's waived if you go ahead with the repair." },
+    { "keywords": ["area", "serve", "location", "where", "come"], "answer": "We serve the whole metro area within about 25 miles of downtown." },
+    { "keywords": ["licensed", "insured", "license", "insurance"], "answer": "Yes, we're fully licensed and insured, and all work comes with a one-year guarantee." }
+  ]
+}

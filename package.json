@@ -1,0 +1,13 @@
+{
+  "name": "ai-voice-receptionist",
+  "version": "1.0.0",
+  "description": "Phone receptionist on Twilio: answers questions, books appointments, texts confirmations, transfers emergencies.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
